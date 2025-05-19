@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 40px;
+}
+
+.items-list li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.items-list li:nth-child(even) {
+  font-weight: bold;
+}
+
+.items-list li:hover {
+  background-color: lightblue;
+}
+
+.items-list li:nth-child(1) {
+  border-bottom: 1px solid;
+}
+
+.items-list li:nth-last-child(1) {
+  color: red;
+}

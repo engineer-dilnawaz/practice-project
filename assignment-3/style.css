@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  border: 2px solid red;
+}
+
+.btn.primary {
+  background-color: aqua;
+}
+
+.primary {
+  background-color: black;
+  color: white;
+}
+
+.secondary {
+  background-color: lightgray;
+  color: white;
+}
