@@ -1,6 +1,42 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-header {
+.main-header {
+  background-color: bisque;
+  padding: 16px;
+}
+
+.logo {
+  font-family: cursive;
+  font-size: 24px;
+  color: #222121;
+  display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 154px);
+  text-align: right;
+}
+
+.main-nav__items {
+  list-style: none;
+}
+
+.main-nav__items--item {
+  display: inline-block;
+  margin-inline: 16px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  padding: 4px;
+}
+
+.main-nav__items--item:hover,
+.main-nav__items--item:active {
+  border: 2px solid purple;
+  transition: border 0.3s ease-in-out;
+  width: 80px;
 }
